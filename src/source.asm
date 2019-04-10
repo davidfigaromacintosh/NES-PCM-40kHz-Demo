@@ -23,7 +23,7 @@ RESET:
 	stx $4017
 	
 	;; Set the stack pointer @ $01ff
-	ldx $ff
+	ldx #$ff
 	txs
 	inx
 	stx $2000
